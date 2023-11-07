@@ -1,13 +1,14 @@
-import React from 'react'
-import Navbar from './components/Navbar'
+import React from "react";
+import Navbar from "./components/Navbar";
+import UserList from "./components/UserList";
 
 const App = () => {
   return (
-    <div>
-      <h2>React + RTK</h2>
-      <Navbar/>
-    </div>
-  )
-}
+    <>
+      <Navbar />
+      <UserList />
+    </>
+  );
+};
 
-export default App
+export default App;
